@@ -10,10 +10,27 @@ a:hover, a:active, a a:visited {
     color: #024283;
     text-decoration: none !important;
 }
-
+.breadcrumb {
+    background-color: transparent;
+    font-size: 11px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 0;
+}
 address {
     line-height: 30px;
     font-size: 15px;
+}
+.breadcrumb li a {
+    color: #767676;
+}
+
+h1 {
+    display: inline-block !important;
+    font-size: 36px !important;
+    margin-bottom: 35px !important;
+    margin-top: 10px !important;
+    position: relative !important;
 }
 
 abbr {
@@ -817,8 +834,10 @@ ul.list-links a:hover {
 }
 .search-box header h2 {
     color: #893f29;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0px !important;
+    display: inline-block;
+    font-size: 24px !important;
 }
 .search-box header h2:after {
     display: none;
@@ -826,7 +845,7 @@ ul.list-links a:hover {
 .search-box header .fa {
     color: #8c3e27;
     font-size: 24px;
-    margin-right: 10px;
+    margin-right: 10px !important;
 }
 .search-box .checkbox {
     display: inline-block;
@@ -1697,6 +1716,7 @@ footer{
 .pagination li.active a {
     background-color: #893f29;
     border: 2px solid #893f29;
+    color: white !important;
 }
 .pagination li.active a:hover, .pagination li.active a:focus, .pagination li.active a:active {
     background-color: #893f29;
@@ -2744,13 +2764,13 @@ article .date {
     -o-transition: 0.3s;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    background-color: #8c3e27;
-    border: 2px solid transparent;
-    color: #fff;
-    font-weight: bold;
+    background-color: #8c3e27 !important;
+    border: 2px solid transparent !important;
+    color: #fff !important;
+    font-weight: bold !important;
     /*min-height: 40px;*/
     outline: none !important;
-    padding: 8px 18px;
+    padding: 8px 18px !important;
 }
 .btn:active, .btn:focus {
     -moz-box-shadow: none;
@@ -3289,6 +3309,7 @@ label.error:before {
     width: 100%;
 }
 #page-footer #footer-bottom .footer-inner .copyright {
+    font-size: 12px !important;
     display: table-cell;
     vertical-align: middle;
 }
@@ -3330,7 +3351,7 @@ address{
     margin: 0px;
     vertical-align: middle;
 }
-.form-control {
+.slider-form .form-control {
     background-color: rgba(255, 255, 255, 0.1) !important;
     border: none !important;
     color: #fff !important;
@@ -3341,7 +3362,7 @@ address{
     color: #FCE7CA !important;
     border-radius: 0px !important;
 }
-.form-select {
+.slider-form .form-select {
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px !important;
     border-radius: 0px !important;
