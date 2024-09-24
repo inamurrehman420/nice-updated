@@ -1888,10 +1888,10 @@ footer{
     position: relative;
     top: 2px;
 }
-
-#homepage-carousel {
-    padding-top: 30px;
+.navigation-contact.pull-left{
+font-size: 12px !important;
 }
+
 #homepage-carousel .homepage-carousel-wrapper {
     color: #fff;
     position: relative;
@@ -3296,7 +3296,32 @@ address{
     margin: 0px;
     vertical-align: middle;
 }
-
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: none !important;
+    color: #fff !important;
+}
+#slider-submit{
+    background-color: transparent !important;
+    border-color: #FCE7CA !important;
+    color: #FCE7CA !important;
+    border-radius: 0px !important;
+}
+.form-select {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(255, 255, 255, 0) !important;
+    height: 40px;
+    padding: 9px !important;
+    font-size: 12px !important;
+    color: white!important;
+}
 .universal-button figure {
     display: table-cell;
     background-color: #FCE7CA;
