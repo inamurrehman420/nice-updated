@@ -1892,6 +1892,40 @@ footer{
 font-size: 12px !important;
 }
 
+
+.navigation-wrapper .primary-navigation-wrapper header .navbar-brandd:before {
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    background-color: #fff;
+    content: "";
+    height: 160px;
+    width: 3000px;
+    position: absolute;
+    top: -30px;
+    right: -80px;
+    z-index: 0;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px !important;
+    }
+}
+.navigation-wrapper .primary-navigation-wrapper header .navbar-brandd:after {
+    background-color: #8c3e27;
+    background-image: url(../img/background-city.png);
+    background-position: 0;
+    content: "";
+    height: 8px;
+    width: 3000px;
+    position: absolute;
+    top: 118px;
+    overflow: hidden;
+    right: -80px;
+    z-index: 0;
+}
+
 #homepage-carousel .homepage-carousel-wrapper {
     color: #fff;
     position: relative;
