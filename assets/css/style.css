@@ -2650,6 +2650,20 @@ article .date {
 /*    right: -80px;*/
 /*    z-index: 0;*/
 /*}*/
+
+.slider-content select{
+    border-radius: 0px;
+    box-shadow: none;
+    transition: 0.3s;
+    background-color: whitesmoke !important;
+    border: 2px solid #c5c5c5 !important;
+    font-size: 12px !important;
+    min-height: 40px;
+    padding: 10px 9px 9px 9px !important;
+    width: 100%;
+}
+
+
 .navigation-wrapper .primary-navigation-wrapper header nav {
     padding: 0;
     position: relative;
