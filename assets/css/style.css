@@ -2627,26 +2627,29 @@ article .date {
     transition: 0.4s;
     background-color: #fff;
     content: "";
-    height: 190px;
+    height: 161px;
     width: 3000px;
     position: absolute;
-    top: -30px;
+    top: -52px;
     right: -80px;
     z-index: 0;
+
+
+
 }
-.navigation-wrapper .primary-navigation-wrapper header .navbar-brand:after {
-    background-color: #8c3e27;
-    background-image: url("../img/background-city.png");
-    background-position: 0;
-    content: "";
-    height: 215px;
-    width: 3000px;
-    position: absolute;
-    top: 158px;
-    overflow: hidden;
-    right: -80px;
-    z-index: 0;
-}
+/*.navigation-wrapper .primary-navigation-wrapper header .navbar-brand:after {*/
+/*    background-color: #8c3e27;*/
+/*    background-image: url("../img/background-city.png");*/
+/*    background-position: 0;*/
+/*    content: "";*/
+/*    height: 215px;*/
+/*    width: 3000px;*/
+/*    position: absolute;*/
+/*    top: 158px;*/
+/*    overflow: hidden;*/
+/*    right: -80px;*/
+/*    z-index: 0;*/
+/*}*/
 .navigation-wrapper .primary-navigation-wrapper header nav {
     padding: 0;
     position: relative;
