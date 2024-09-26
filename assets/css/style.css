@@ -2663,7 +2663,10 @@ article .date {
     width: 100%;
 }
 
-
+.show-profile {
+    color: #252525 !important;
+    font-size: 11px !important;
+}
 .navigation-wrapper .primary-navigation-wrapper header nav {
     padding: 0;
     position: relative;
